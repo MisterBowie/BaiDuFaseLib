@@ -357,10 +357,10 @@ public class FaceLivenessActivity extends Activity implements
         Display display = getWindowManager().getDefaultDisplay();
         int width = display.getWidth();
         int height = display.getHeight();
-        witchView.setText("宽度：" + width + "高度" + height);
+        witchView.setText("宽度：" + width + "高度" + height + "   lib得出的" + mPreviewWidth + "x" + mPreviewHight);
         Camera.Size closelyPreSize = getCloselyPreSize(width, height, mCamera.getParameters().getSupportedPreviewSizes());
         if (closelyPreSize != null && closelyPreSize.width > 0) {
-            mCameraParam.setPreviewSize(closelyPreSize.width, closelyPreSize.height);
+            mCameraParam.setPreviewSize(mPreviewWidth, mPreviewHight);
         } else {
             mCameraParam.setPreviewSize(600, 800);
         }
@@ -800,7 +800,9 @@ public class FaceLivenessActivity extends Activity implements
                 retSize = size;
             }
         }
-
+        if (retSize == null) {
+            retSize = preSizeList.get(1);
+        }
         return retSize;
 
     }

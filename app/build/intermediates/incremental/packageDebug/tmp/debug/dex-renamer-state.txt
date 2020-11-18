@@ -1,4 +1,4 @@
-#Tue Nov 17 20:11:30 CST 2020
+#Wed Nov 18 17:18:05 CST 2020
 base.2=/Users/shubowei/Downloads/Android-SDK@2.9.8.80513_20201111/UniPlugin-Hello-AS/app/build/intermediates/transforms/dexMerger/debug/8
 base.1=/Users/shubowei/Downloads/Android-SDK@2.9.8.80513_20201111/UniPlugin-Hello-AS/app/build/intermediates/transforms/dexMerger/debug/3
 base.0=/Users/shubowei/Downloads/Android-SDK@2.9.8.80513_20201111/UniPlugin-Hello-AS/app/build/intermediates/transforms/dexMerger/debug/6
