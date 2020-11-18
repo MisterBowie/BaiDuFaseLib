@@ -1,0 +1,42 @@
+{
+  "nativePlugins": [
+    {
+      "plugins": [
+        {
+          "type": "module",
+          "name": "TestModule",
+          "class": "io.dcloud.uniplugin.TestModule"
+        }
+      ]
+    },
+    {
+      "plugins": [
+        {
+          "type": "component",
+          "name": "myText",
+          "class": "io.dcloud.uniplugin.TestText"
+        }
+      ]
+    },
+    {
+      "hooksClass": "com.daoyintech.facelib.FaceLibHookProxy",
+      "plugins": [
+        {
+          "type": "module",
+          "name": "FaceLice",
+          "class": "com.daoyintech.facelib.FaceModel"
+        }
+      ]
+    },
+    {
+      "hooksClass": "",
+      "plugins": [
+        {
+          "type": "module",
+          "name": "DCloud-RichAlert",
+          "class": "uni.dcloud.io.uniplugin_richalert.RichAlertModule"
+        }
+      ]
+    }
+  ]
+}

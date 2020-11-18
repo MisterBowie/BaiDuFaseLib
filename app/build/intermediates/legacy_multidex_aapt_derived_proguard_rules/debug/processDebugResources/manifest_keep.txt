@@ -1,0 +1,2 @@
+# Referenced at /Users/shubowei/Downloads/Android-SDK@2.9.8.80513_20201111/UniPlugin-Hello-AS/app/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:45
+-keep class io.dcloud.application.DCloudApplication { <init>(...); }
